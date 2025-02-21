@@ -8,4 +8,4 @@ $(OUTPUT): $(SOURCEFILE)
 	$(CC) $(CFLAGS) $(SOURCEFILE) -o $(OUTPUT) $(LIBRARIES)
 
 clean:
-rm -f $(OUTPUT)
+	rm -f $(OUTPUT)
